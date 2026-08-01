@@ -51,9 +51,17 @@
     .align = ADC_ALIGN_RIGHT
   };
 
-  adc_Init(&config);
+ int main(void)
+ {
 
-  uint16_t adcValue = adc_Read(ADC_CHANNEL5);
+  adc_Init(&config); 
+
+  while(1)
+  {
+   uint16_t adcValue = adc_Read(ADC_CHANNEL5);
+  }
+
+ }
 
  
  ## Ready-to-use examples can be found in the examples/directory

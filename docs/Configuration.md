@@ -92,6 +92,7 @@
 
     adc_Init(&config);
 ===================================================================================
+
     # Notes
 
     - Configure the driver before calling adc_Init().

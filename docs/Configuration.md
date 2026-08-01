@@ -82,10 +82,12 @@
     ````c
     ADC_Config config =
     {
-        .reference           = ADC_REF_VCC,
+        
         .conversionMode      = ADC_SINGLE_CONVERSION,
-        .resultAlign         = ADC_ALIGN_RIGHT,
+        .reference           = ADC_REF_VCC,
         .prescaler           = ADC_PRESCALER_64
+        .resultAlign         = ADC_ALIGN_RIGHT,
+        
     };
 
     adc_Init(&config);

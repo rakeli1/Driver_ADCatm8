@@ -58,7 +58,7 @@
 
   while(1)
   {
-   uint16_t adcValue = adc_Read(ADC_CHANNEL5);
+   uint16_t adcValue = adc_Read(ADC_CHANNEL_5);
   }
 
  }

@@ -179,7 +179,7 @@
      .conversionMode = ADC_SINGLE_CONVERSION,
      .reference = ADC_REF_VCC,
      .prescaler = ADC_PRESCALER_64,
-     .align = ADC_ALIGN_RIGHT
+     .resultAlign = ADC_ALIGN_RIGHT
    };
 
    int main(void)

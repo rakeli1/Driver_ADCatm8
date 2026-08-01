@@ -13,7 +13,7 @@
 
 ADC_Config config = {
 	.conversionMode = ADC_SINGLE_CONVERSION,
-	.reference      = ADC_REF_INTERNAL,
+	.reference      = ADC_REF_VCC,
 	.prescaler      = ADC_PRECALER_64,
 	.resultAlign    = ADC_ALIGN_RIGHT
 };
